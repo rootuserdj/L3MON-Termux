@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<% include partials/head.ejs %>
+
+
+<body>
+    <style type="text/css">
+        body {
+            background: #dbdbdb;
+            background: -webkit-linear-gradient(to bottom right, #86fde8, #acb6e5);
+            background: linear-gradient(to bottom right, #86fde8, #acb6e5);
+        }
+
+        body>.grid {
+            height: 100%;
+        }
+
+        .image {
+            margin-top: -100px;
+        }
+
+        .column {
+            max-width: 500px;
+	    height: 700px;
+
+        }
+	.data {
+		height: 80px;
+		font-size: 500px;
+
+	}
+
+	#login {
+		height: 100px;
+		width: 470px;
+		font-size: 45px;
+		padding-left: 50px;
+	}
+
+	#frm {
+		height: 530px;
+		width: 500px;
+		border-size: 100px;
+		border-color: blue;
+		
+	}
+
+
+    </style>
+    <script>
+        $(document).ready(function () {
+            $('.ui.form').form({
+                fields: {
+                    email: {
+                        identifier: 'username',
+                        rules: [
+                            {
+                                type: 'empty',
+                                prompt: 'Please enter your username'
+                            }
+                        ]
+                    },
+                    password: {
+                        identifier: 'password',
+                        rules: [
+                            {
+                                type: 'empty',
+                                prompt: 'Please enter your password'
+                            }
+                        ]
+                    }
+                }
+            });
+        });
+    </script>
+
+    <div class="ui middle aligned center aligned grid">
+
+        <div class="column">
+
+            <form  class="ui large form" method="POST">
+                <div id="frm" class="ui stacked segment">
+                    <h2 class="ui image header">
+                        <div class="content">
+                            <img src="/logo.png" style="height: 150px;">
+                        </div>
+                    </h2>
+                    <div class="field">
+                        <div class="ui left icon input">
+                            <i class="user icon"></i>
+                            <input class="data" type="text" name="username" placeholder="Username">
+                        </div>
+                    </div><br>
+                    <div class="field">
+                        <div class="ui left icon input">
+                            <i class="lock icon"></i>
+                            <input class="data" type="password" name="password" placeholder="Password">
+                        </div>
+                    </div><br>
+                    <div id="login" class="ui fluid large teal submit button">Login</div>
+                    <div class="ui error message"></div>
+
+                </div>
+
+            </form>
+            <% include partials/footer.ejs %>
+        </div>
+    </div>
+</body>
+
+</html>
