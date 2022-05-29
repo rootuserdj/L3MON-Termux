@@ -60,7 +60,7 @@ then
 	sleep 2
 	termux-open-url http://localhost:8080
 	printf "${IGreen}\n"
-	read -p "                𝙋𝙧𝙚𝙨𝙨 𝙀𝙣𝙩𝙚𝙧 𝙁𝙤𝙧 𝙎𝙩𝙤𝙥 " host
+	read -p "              𝙋𝙧𝙚𝙨𝙨 𝙀𝙣𝙩𝙚𝙧 𝙁𝙤𝙧 𝙎𝙩𝙤𝙥 " host
 	pkill php
 
 
