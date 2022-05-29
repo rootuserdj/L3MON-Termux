@@ -54,8 +54,12 @@ A cloud based remote android managment suite for termux, powered by NodeJS
 
 
 
-<a href="https://paypal.me/efxtv"><img src="https://raw.githubusercontent.com/efxtv/efxtv/master/assets/donate-efx-tv.png" alt="Paypal" width="125" height="40"></a>
+
+## Donate
+
 <a href="#"><img src="https://raw.githubusercontent.com/efxtv/efxtv/master/assets/3eeb7756-68ca-41b6-86aa-00a4c575bed9.png.webp" alt="Phonepay" width="241" height="269"></a>
+
+
 
 
 
