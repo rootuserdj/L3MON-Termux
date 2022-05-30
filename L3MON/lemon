@@ -1,14 +1,41 @@
 #!/bin/bash
+Black='\033[0;30m'
+Red='\033[0;31m'
+Green='\033[0;32m'
+IGreen='\033[0;92m'
+Yellow='\033[0;33m'
+IYellow='\033[0;93m'
+Blue='\033[0;34m'
+Purple='\033[0;35m'
+Cyan='\033[0;36m'
+White='\033[0;37m'
+clean='\033[0m'
 
-#############################################################
-# Colors
-#############################################################
-clear='\033[0m'
-IRed='\033[0;91m'         # Red
-IGreen='\033[0;92m'       # Green
-IBlue='\033[0;94m'        # Blue
-IPurple='\033[0;95m'      # Purple
-ICyan='\033[0;96m'        # Cyan
+bann()
+{
+echo -e "${IGreen}┌────────────┐		${clean}
+${IGreen}│${clean}${IGreen} 𝗟 𝟯 𝗠 𝗢 𝗡${clean}  ${IGreen}├──┐
+└────────────┘  │
+         ┌──────┘
+       ┌─┴───┐    ┌────┐	
+       │${clean}${IGreen}START${clean}${IGreen}├──┬─┤${clean}${IGreen}STOP${clean}${IGreen}│${IGreen}
+       └─────┘  │ └────┘
+              ┌─┴─────┐  		
+              │${clean}${IGreen}RESTART${clean}${IGreen}│
+              └─┬─────┘
+                │
+        ┌───────┴┐  ┌────┐		
+        │${clean}${IGreen}PASSWORD${clean}${IGreen}├──┤${clean}${IGreen}HELP${clean}${IGreen}│
+        └────┬───┘  └────┘
+          ┌──┘ 
+        ┌─┴───┐    ┌────┐		
+        │${clean}${IGreen}BUILD${clean}${IGreen}├─┬──┤${clean}${IGreen}BIND${clean}${IGreen}│
+        └─────┘ │  └────┘
+            ┌───┴──┐
+            │${clean}${IGreen}UPDATE${clean}${IGreen}│
+            └──────┘${clean}"
+}
+
 
 
 #############################################################
@@ -90,19 +117,7 @@ then
 #############################################################
 elif [ "$1" == "help" ]
 then
-	l="${ICyan}➧${clear}"
-	o="${IGreen}"
-	printf " \n
-	$l $o lemon password\n
-	$l $o lemon start\n
-	$l $o lemon stop\n
-	$l $o lemon restart\n
-	$l $o lemon build\n
-	$l $o lemon bind (Soon)\n
-	$l $o lemon help\n
-	$l $o lemon update\n
-	$l $o lemon clean\n" | pv -qL 100
-
+bann| pv -qL 800|lolcat
 
 
 ############################################################
