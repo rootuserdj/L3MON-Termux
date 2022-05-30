@@ -31,6 +31,8 @@ Cyan='\033[0;96m'        # Cyan
 
 
 pkg install pv > /dev/null 2>&1 
+gem install lolcat > /dev/null 2>&1 
+
 
 
 #############################################################
