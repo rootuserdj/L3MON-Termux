@@ -25,10 +25,9 @@ Clone of real <a href="https://github.com/D3VL/L3MON">L3MON</a> a cloud based re
 
 ## Installation
 ```
+     cd $HOME
      git clone https://github.com/rootuserdj/L3MON-Termux.git
-     
      cd L3MON-Termux
-     
      bash install.sh
 ```
   
@@ -41,11 +40,7 @@ Clone of real <a href="https://github.com/D3VL/L3MON">L3MON</a> a cloud based re
 
 
 ## Donate
-<a href="[https://github.com/D3VL/L3MON](https://raw.githubusercontent.com/efxtv/efxtv/master/assets/3eeb7756-68ca-41b6-86aa-00a4c575bed9.png.webp">Infian UPI</a>
-<a href="https://github.com/D3VL/L3MON](https://www.paypal.com/paypalme/efxtv">PAYPeAL</a>
-
-<a href="#"><img src="https://raw.githubusercontent.com/efxtv/efxtv/master/assets/3eeb7756-68ca-41b6-86aa-00a4c575bed9.png.webp" alt="Phonepay" width="241" height="269"></a>
-
+<ul><li><a href="https://github.com/D3VL/L3MON](https://raw.githubusercontent.com/efxtv/efxtv/master/assets/3eeb7756-68ca-41b6-86aa-00a4c575bed9.png.webp">Indian UPI</a></li><li><a href="https://github.com/D3VL/L3MON](https://www.paypal.com/paypalme/efxtv">PAYPeAL</a></li></ul>
 
 
 
@@ -53,12 +48,12 @@ Clone of real <a href="https://github.com/D3VL/L3MON">L3MON</a> a cloud based re
 
 
 ## Disclaimer
-<b><a href="https://www.youtube.com/c/EFXTVE">EFX Tv </a>Provides no warranty with this software and will not be responsible for any direct or indirect damage caused due to the usage of this tool.<br>
-L3MON is built for both Educational and Internal use ONLY.</b>
+<a href="https://www.youtube.com/c/EFXTVE">EFX Tv </a>Provides no warranty with this software and will not be responsible for any direct or indirect damage caused due to the usage of this tool.
+L3MON is built for both Educational and Internal use ONLY.
 
 <br>
-<p align="center">Modified with ❤️ By <a href="https://t.me/efxtve">EFX Tv ➤ Dhananjay Sah</a></p>
-<p align="center" style="font-size: 8px">v2.1.0</p>
+<p align="center">L3MON Termux Managed and maintained by ❤️ <a href="https://t.me/efxtve">Dhananjay Sah (EFX Tv)</a></p>
+<p align="center" style="font-size: 8px">L3MON Termux v2.1.0</p>
 
 
 
