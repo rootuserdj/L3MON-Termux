@@ -95,8 +95,8 @@ elif [ "$1" == "-h" ]
 then
 	l="${ICyan}➧${clear}"
 	o="${IGreen}"
-	printf " \n
-	$l $o lemon password\n
+	
+	$bl $o lemon password\n
 	$l $o lemon start\n
 	$l $o lemon stop\n
 	$l $o lemon restart\n
