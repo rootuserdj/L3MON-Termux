@@ -1,7 +1,7 @@
 
 <p align="center">
 <img src="https://github.com/rootuserdj/L3MON-Termux/blob/main/L3MON/server/assets/webpublic/logo.png" height="60"><br>
-A cloud based remote android managment suite for termux, powered by NodeJS
+Clone of real <a href="https://github.com/D3VL/L3MON">L3MON</a> a cloud based remote android managment suite for termux, powered by NodeJS
 </p>
 
 
@@ -24,38 +24,25 @@ A cloud based remote android managment suite for termux, powered by NodeJS
 
 
 ## Installation
-
+```
      git clone https://github.com/rootuserdj/L3MON-Termux.git
      
      cd L3MON-Termux
      
      bash install.sh
+```
   
   
      
  ## Options
- 
-➤ lemon password  ➞ For Save L3MON Login Page Password
-
-➤ lemon start     ➞ For Start L3MON Server
-
-➤ lemon stop      ➞ For Stop L3MON Server
-
-➤ lemon restart   ➞ For Restart L3MON Server
-
-➤ lemon build     ➞ For Build Apk
-
-➤ lemon bind      ➞ Added Soon
-
-➤ lemon -h        ➞ For Help
-
-➤ lemon clean     ➞ Clear L3MON Like Fresh
-
+ Press lemon -help to view the help menu
 
 
 
 
 ## Donate
+<a href="[https://github.com/D3VL/L3MON](https://raw.githubusercontent.com/efxtv/efxtv/master/assets/3eeb7756-68ca-41b6-86aa-00a4c575bed9.png.webp">Infian UPI</a>
+<a href="https://github.com/D3VL/L3MON](https://www.paypal.com/paypalme/efxtv">PAYPeAL</a>
 
 <a href="#"><img src="https://raw.githubusercontent.com/efxtv/efxtv/master/assets/3eeb7756-68ca-41b6-86aa-00a4c575bed9.png.webp" alt="Phonepay" width="241" height="269"></a>
 
