@@ -88,7 +88,7 @@ then
 #############################################################
 # Help
 #############################################################
-elif [ "$1" == "-h" ]
+elif [ "$1" == "help" ]
 then
 	l="${ICyan}➧${clear}"
 	o="${IGreen}"
@@ -99,7 +99,7 @@ then
 	$l $o lemon restart\n
 	$l $o lemon build\n
 	$l $o lemon bind (Soon)\n
-	$l $o lemon -h (help)\n
+	$l $o lemon help\n
 	$l $o lemon update\n
 	$l $o lemon clean\n" | pv -qL 100
 
