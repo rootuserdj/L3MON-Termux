@@ -19,7 +19,6 @@ then
 	cd $PREFIX/share/L3MON/server
 	pm2 start index.js -s
 	printf "${IGreen}    [✔] 𝙇3𝙈𝙊𝙉 𝙎𝙩𝙖𝙧𝙩𝙚𝙙  \n" | pv -qL 30
-	termux-open-url http://127.0.0.1:2253
 
 #############################################################
 # Stop
