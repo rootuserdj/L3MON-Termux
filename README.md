@@ -38,7 +38,7 @@ Clone of real <a href="https://github.com/D3VL/L3MON">L3MON</a> a cloud based re
 
 
 
-<p align="center">L3MON Termux Managed and maintained by ❤️ <a href="@hack3rdj">Dhananjay Sah (EFX Tv)</a></p>
+<p align="center">L3MON Termux Managed and maintained by ❤️ <a href="@hack3rdj">Dhananjay Sah</a></p>
 <p align="center" style="font-size: 8px">L3MON Termux v2.1.0</p>
 
 
