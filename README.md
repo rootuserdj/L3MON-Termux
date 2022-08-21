@@ -38,24 +38,7 @@ Clone of real <a href="https://github.com/D3VL/L3MON">L3MON</a> a cloud based re
 
 
 
-
-## Donate
-<div align="justify">We all love L3MON, aren't we?
-L3MON does not belong to us however, L3MON Termux is a modified version created by EFX Tv. It is the fastest RAT builder ever. L3MON Termux does not require JAVA8 and Metasploit. It has an inbuilt signer to sign the base application. L3MON Termux Doesn't have a web-based APK builder interface but instead a terminal. We created a terminal-based L3MON Termux APK builder to improve the user experience and reduce the time during the finalizing process. <b>Very soon we are going to introduce the binding options for L3MON Termux</b>. Please support this repository by donating an amount equivalent to a cup of tea. </div>
-
-<ul><li><a href="https://github.com/D3VL/L3MON](https://raw.githubusercontent.com/efxtv/efxtv/master/assets/3eeb7756-68ca-41b6-86aa-00a4c575bed9.png.webp">Indian UPI</a></li><li><a href="https://www.paypal.com/paypalme/efxtv">PAYPAL</a></li></ul>
-
-
-
-
-
-
-## Disclaimer
-<a href="https://www.youtube.com/c/EFXTVE">EFX Tv </a>Provides no warranty with this software and will not be responsible for any direct or indirect damage caused due to the usage of this tool.
-L3MON is built for both Educational and Internal use ONLY.
-
-<br>
-<p align="center">L3MON Termux Managed and maintained by ❤️ <a href="https://t.me/efxtve">Dhananjay Sah (EFX Tv)</a></p>
+<p align="center">L3MON Termux Managed and maintained by ❤️ <a href="@hack3rdj">Dhananjay Sah (EFX Tv)</a></p>
 <p align="center" style="font-size: 8px">L3MON Termux v2.1.0</p>
 
 
